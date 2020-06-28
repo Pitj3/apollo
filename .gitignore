@@ -1,32 +1,18 @@
-# Prerequisites
-*.d
+# IDE Files and Folders
+Makefile
+.vscode/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.vs/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Outputs
+bin/
+bin-int/
+console.log
+core.log
+client.log
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Generated
+dependencies/glad/include/*
