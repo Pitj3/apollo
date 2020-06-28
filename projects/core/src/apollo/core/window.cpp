@@ -59,11 +59,10 @@ namespace apollo
         if (_internalWindow == nullptr)
         {
             APOLLO_INTERNAL_CRITICAL("Failed to create window");
-            glfwTerminate();
             return;
         }
 
-        APOLLO_INTERNAL_INFO("Created window ({0}, {1}) with title \"{2}\"", _data->width, _data->height, _data->title);
+        APOLLO_INTERNAL_INFO("Created window (width: {0}, height: {1}) with title \"{2}\"", _data->width, _data->height, _data->title);
 
         // TODO (Roderick): Implement Graphics API Initialization
     }

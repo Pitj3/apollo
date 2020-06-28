@@ -1,8 +1,10 @@
 #include <apollo/core/window.h>
 
+using namespace apollo;
+
 int main(int argc, char** argv)
 {
-	apollo::Window* window = new apollo::Window(1280, 720, "Apollo Game Engine");
+	Window* window = new Window(1280, 720, "Apollo Game Engine");
 
 	while (!window->shouldClose())
 	{
